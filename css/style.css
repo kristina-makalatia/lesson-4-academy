@@ -1,0 +1,44 @@
+.kartuli-absoluturi {
+	font-family: "ALK Life", sans-serif;
+	font-weight: 600;
+}
+.kartuli-relatiuri {
+	font-family: 'ALK Rex Bold';
+}
+.kartuli-relatiuri2 {
+	font-family: 'ALK Tommaso';
+}
+.latinuri-absoluturi {
+	font-family: 'Yusei Magic', sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	text-indent: 100px;
+	letter-spacing: 10px;
+}
+.latinuri-relatiuri {
+	font-family: 'Montserrat';
+}
+.test1 {
+	display: inline-block;
+}
+.test1::before {
+	content: 'Academy';
+	color: red;
+	background-color: yellow;
+	font-size: 20px;
+}
+/*.test1::after {
+	content: url('../img/smiley.gif');
+}*/
+/*.test1::after {
+	content: ' ';
+	width: 2px;
+	height: 27px;
+	background-color: #363E97;
+	display: inline-block;
+	margin-left: 50px;
+}*/
+
+.test1::after {
+	content: ' \00A9';
+}
